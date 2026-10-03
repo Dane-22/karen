@@ -1,0 +1,37 @@
+/* Licensed fonts have not been supplied. No third-party font requests are made.
+   Add licensed WOFF2 files to public/fonts/ and uncomment the matching faces.
+   Add separate faces for each supplied weight/style; do not mislabel weights. */
+/*
+@font-face {
+  font-family: 'Georgia Pro Condensed';
+  src: url('/fonts/georgia-pro-condensed-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Georgia Pro Condensed';
+  src: url('/fonts/georgia-pro-condensed-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/gotham-book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/gotham-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+:root {
+  --font-display: 'Georgia Pro Condensed', Georgia, 'Times New Roman', serif;
+  --font-body: 'Gotham', 'Avenir Next', Arial, sans-serif;
+}
