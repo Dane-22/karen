@@ -15,7 +15,7 @@ export type Category = {
 export const categories: Category[] = [
   { id: 'photography', title: 'Photography', description: 'Still moments. A closer look.', cover: '/media/photography/IMG_0670%20(1)-large.jpg', coverAlt: 'Monochrome studio portrait of a woman seated on a stool', enabled: true, isConcept: false },
   { id: 'film', title: 'Film', description: 'Stories told in motion.', cover: '/media/hills.svg', coverAlt: 'Olive landscape illustration for the Film collection', enabled: true, isConcept: false },
-  { id: 'social-media', title: 'Social Media', description: 'A selection of Instagram profiles and Facebook pages handled by Karen.', cover: '/media/social-journal.svg', coverAlt: 'Editorial illustration for the Social Media collection', enabled: true, isConcept: false },
+  { id: 'social-media', title: 'Social Media', description: 'A selection of Instagram profiles and Facebook pages handled by Karen.', cover: '/media/social-media-cover.jpg', coverAlt: 'Mosaiko logo with colored mosaic tiles on a light background', enabled: true, isConcept: false },
   { id: 'collaborations', title: 'Collaborations', description: 'Different minds. Shared vision.', cover: '/media/collab.svg', coverAlt: 'Original split-frame concept artwork combining architecture and a landscape', enabled: true, isConcept: true },
 ];
 const credit = 'Original local vector artwork created for the MOSAIKO website demo. Not Karen’s photography or completed work.';

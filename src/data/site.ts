@@ -13,7 +13,7 @@ export const site = {
   storyApproved: false,
   approachDraft: 'Start with a feeling. Pay attention to the small things. Bring the pieces together with intention.',
   approachApproved: false,
-  portrait: null as null | { src: string; alt: string },
+  portrait: { src: '/media/section-backgrounds/ZEE09511-desktop.jpg', alt: 'Black-and-white still life of books and objects with soft motion blur' } as null | { src: string; alt: string },
   reel: { src: '', poster: '/media/coast.svg', captions: '' },
 };
 export const navigation = [{ label: 'Works', href: '#works' }, { label: 'About', href: '#about' }, { label: 'Contact', href: '#contact' }];
